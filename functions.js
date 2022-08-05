@@ -31,16 +31,15 @@ function checkStock (callNumber, stockItem) {
     console.log(`${stockItem} is stocked`)
   }
 }
-checkStock(3, "Tortillas");
 
-//checkStock(4, "Coffee");
+checkStock(4, "Coffee");
 // => "Coffee is stocked"
 
-//checkStock(3, "Tortillas");
+checkStock(3, "Tortillas");
 // => "Tortillas - running LOW"
 
-//checkStock(0, "Cheese");
+checkStock(0, "Cheese");
 // => "Cheese - OUT of stock!"
 
-//checkStock(1, "Salsa");
+checkStock(1, "Salsa");
 // => "Salsa - running LOW"
